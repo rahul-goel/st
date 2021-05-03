@@ -110,32 +110,58 @@ unsigned int tabspaces = 8;
 /* bg opacity */
 float alpha = 0.98;
 
+// gruvbox
+///* Terminal colors (16 first used in escape sequence) */
+//static const char *colorname[] = {
+//	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+//	"#cc241d",
+//	"#98971a",
+//	"#d79921",
+//	"#458588",
+//	"#b16286",
+//	"#689d6a",
+//	"#a89984",
+//	"#928374",
+//	"#fb4934",
+//	"#b8bb26",
+//	"#fabd2f",
+//	"#83a598",
+//	"#d3869b",
+//	"#8ec07c",
+//	"#ebdbb2",
+//	[255] = 0,
+//	/* more colors can be added after 255 to use with DefaultXX */
+//	"#add8e6", /* 256 -> cursor */
+//	"#555555", /* 257 -> rev cursor*/
+//	"#282828", /* 258 -> bg */
+//	"#ebdbb2", /* 259 -> fg */
+//};
+
+// pastel color scheme
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#2b2e33",
+	"#adc47e",
+	"#e1d179",
+	"#dcdbd7",
+	"#6bbac1",
+	"#65a4cf",
+	"#6dcac0",
+	"#81bba3",
+	"#8dbc92",
+	"#dea981",
+	"#d38da9",
+	"#ca9bf7",
+	"#db948e",
+	"#e1d179",
+	"#65a4cf",
+	"#adc47e",
 	[255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#2b2e33", /* 258 -> bg */
+	"#dcdbd7", /* 259 -> fg */
 };
-
 
 /*
  * Default colors (colorname index)
